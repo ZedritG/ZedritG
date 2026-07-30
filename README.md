@@ -1,3 +1,5 @@
+<!-- Full-stack product engineering profile for github.com/ZedritG -->
+
 <div align="center">
   <img src="./assets/hero.svg" width="100%" alt="Ronald Rodríguez — Full-Stack Product Engineer" />
 </div>
