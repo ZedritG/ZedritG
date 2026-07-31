@@ -1,79 +1,37 @@
-<svg width="1200" height="440" viewBox="0 0 1200 440" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Ronald Rodríguez — Full-Stack Product Engineer</title>
-  <desc id="desc">An editorial profile banner with hand-drawn product, interface, data, and mobile illustrations.</desc>
-  <defs>
-    <filter id="paper" x="-10%" y="-10%" width="120%" height="120%">
-      <feTurbulence type="fractalNoise" baseFrequency=".72" numOctaves="3" seed="18" result="noise"/>
-      <feColorMatrix in="noise" type="saturate" values="0" result="mono"/>
-      <feComponentTransfer in="mono"><feFuncA type="table" tableValues="0 .055"/></feComponentTransfer>
-      <feBlend in="SourceGraphic" mode="soft-light"/>
-    </filter>
-    <style>
-      .sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}.mono{font-family:ui-monospace,"SFMono-Regular",Consolas,monospace}
-      .ink{stroke:#F3EEE5;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}.soft{stroke:#B9B0A7;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}.scribble{stroke-dasharray:420;stroke-dashoffset:420;animation:draw 14s ease-in-out infinite}.wander{animation:wander 18s ease-in-out infinite;transform-box:fill-box;transform-origin:center}.wander.alt{animation-delay:-8s;animation-duration:21s}.tick{animation:tick 3.6s steps(2,end) infinite}.orbit{animation:orbit 28s linear infinite;transform-box:fill-box;transform-origin:center}
-      @keyframes draw{0%,12%{stroke-dashoffset:420}42%,82%{stroke-dashoffset:0}100%{stroke-dashoffset:-420}}@keyframes wander{0%,100%{translate:0 0;rotate:-1deg}50%{translate:4px -3px;rotate:1deg}}@keyframes tick{50%{opacity:.35}}@keyframes orbit{to{transform:rotate(360deg)}}
-      @media(prefers-reduced-motion:reduce){.scribble,.wander,.tick,.orbit{animation:none}.scribble{stroke-dashoffset:0}}
-    </style>
-  </defs>
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Hello, I am Ronald Rodríguez</title>
+  <desc id="desc">A simple purple profile banner for a full-stack product engineer.</desc>
+  <style>
+    .sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}.mono{font-family:ui-monospace,"SFMono-Regular",Consolas,monospace}
+  </style>
 
-  <g filter="url(#paper)">
-    <rect x="1" y="1" width="1198" height="438" rx="22" fill="#14161A" stroke="#4B4645" stroke-width="2"/>
-    <path d="M325 392V178C325 68 415 22 600 22C785 22 875 68 875 178V392H325Z" fill="#57264E"/>
-    <path d="M392 392V202C392 124 461 82 600 82C739 82 808 124 808 202V392H392Z" fill="#742D65" opacity=".72"/>
-    <path d="M461 392V225C461 174 507 144 600 144C693 144 739 174 739 225V392H461Z" fill="#252028" opacity=".72"/>
+  <rect width="1200" height="300" fill="#4B105B"/>
+  <path d="M335 300V215C335 88 441 20 600 20C759 20 865 88 865 215V300H335Z" fill="#8D209E"/>
+  <path d="M436 300V224C436 140 502 92 600 92C698 92 764 140 764 224V300H436Z" fill="#731780" opacity=".72"/>
 
-    <g class="mono" fill="#C8BFB5" font-size="11" letter-spacing="1.6">
-      <text x="35" y="37">ZEDRITG / PROFILE NOTE 02</text>
-      <text x="1165" y="37" text-anchor="end">FULL-STACK · ECUADOR</text>
-    </g>
-    <circle cx="22" cy="33" r="4" fill="#C87353"/>
-    <path d="M35 52H1165" stroke="#5A5150" stroke-width="1"/>
+  <circle cx="600" cy="71" r="39" fill="#F6F2EA"/>
+  <circle cx="600" cy="71" r="31" fill="#202126"/>
+  <text x="600" y="82" text-anchor="middle" class="sans" fill="#F6F2EA" font-size="30" font-weight="800">RR</text>
 
-    <g class="wander" transform="translate(46 96)">
-      <text x="0" y="-15" class="mono" fill="#A9A098" font-size="10" letter-spacing="1.4">01 / THE MESS</text>
-      <path class="ink scribble" d="M4 33C35 4 43 73 71 39C93 12 104 61 129 34C145 17 164 24 175 46"/>
-      <path class="soft" d="M4 82C35 55 55 100 82 74C105 51 130 101 173 67"/>
-      <circle cx="5" cy="33" r="5" fill="#C87353"/><circle cx="175" cy="46" r="5" fill="#D3B15C"/>
-      <text x="0" y="119" class="sans" fill="#F3EEE5" font-size="15" font-weight="700">real workflow</text>
-      <text x="0" y="139" class="mono" fill="#89827B" font-size="10">listen before building</text>
-    </g>
+  <text x="600" y="157" text-anchor="middle" class="sans" fill="#FFFFFF" font-size="48" font-weight="750" letter-spacing="-1">HELLO, I'M RONALD</text>
+  <text x="600" y="184" text-anchor="middle" class="mono" fill="#E8DCEA" font-size="12" letter-spacing="2">FULL-STACK PRODUCT ENGINEER</text>
 
-    <g class="wander alt" transform="translate(960 87)">
-      <text x="0" y="-6" class="mono" fill="#A9A098" font-size="10" letter-spacing="1.4">04 / IN THE FIELD</text>
-      <path class="ink" d="M31 17H124C132 17 138 23 138 31V142C138 150 132 156 124 156H31C23 156 17 150 17 142V31C17 23 23 17 31 17Z"/>
-      <path class="soft" d="M35 44H120M35 61H103M35 78H112"/>
-      <rect x="35" y="105" width="85" height="27" rx="5" fill="#5D816F"/>
-      <path d="M63 145H92" stroke="#F3EEE5" stroke-width="2" stroke-linecap="round"/>
-      <path d="M145 45L158 34M149 61L168 58M144 77L157 89" stroke="#C87353" stroke-width="2.4" stroke-linecap="round"/>
-      <text x="17" y="184" class="sans" fill="#F3EEE5" font-size="15" font-weight="700">useful software</text>
-      <text x="17" y="204" class="mono" fill="#89827B" font-size="10">built for the real day</text>
-    </g>
+  <g class="mono" fill="#F6F2EA" font-size="12">
+    <circle cx="132" cy="156" r="10" stroke="#F6F2EA" stroke-width="1.5"/>
+    <path d="M126 156H138M132 150C135 153 135 159 132 162M132 150C129 153 129 159 132 162" stroke="#F6F2EA" stroke-width="1"/>
+    <text x="151" y="160">zedritg.github.io/ZedritG/</text>
 
-    <g class="sans" text-anchor="middle">
-      <g class="orbit">
-        <circle cx="600" cy="100" r="31" fill="#14161A" stroke="#A7BFAE" stroke-width="2"/>
-        <path class="ink" d="M585 98C592 87 608 87 615 98M590 108H610"/>
-      </g>
-      <text x="600" y="194" fill="#D8C6D5" font-size="13" font-weight="700" letter-spacing="3">RONALD RODRÍGUEZ</text>
-      <text x="600" y="239" fill="#F3EEE5" font-size="48" font-weight="850" letter-spacing="-.8">MESSY WORKFLOWS,</text>
-      <text x="600" y="288" fill="#F3EEE5" font-size="48" font-weight="850" letter-spacing="-.8">CLEAR PRODUCTS.</text>
-      <path d="M474 304C531 312 647 310 726 302" stroke="#C87353" stroke-width="4" stroke-linecap="round"/>
-      <text x="600" y="338" fill="#B9B0A7" font-size="15">Web platforms · dependable APIs · data systems · mobile products</text>
-    </g>
-
-    <g transform="translate(505 360)">
-      <rect width="190" height="42" rx="21" fill="#F3EEE5"/>
-      <circle class="tick" cx="23" cy="21" r="5" fill="#5D816F"/>
-      <text x="101" y="26" text-anchor="middle" class="mono" fill="#201C20" font-size="11" font-weight="700" letter-spacing="1.1">BUILD · SHIP · LEARN</text>
-    </g>
-
-    <g fill="none" stroke-linecap="round">
-      <path d="M250 83l12 9 14-17M279 74l10 4" stroke="#D3B15C" stroke-width="2"/>
-      <path d="M915 316c-13-14-29-14-42 0 13 14 29 14 42 0Z" stroke="#A7BFAE" stroke-width="1.8"/>
-      <circle cx="894" cy="316" r="4" fill="#A7BFAE"/>
-      <path d="M247 344v21M237 354h21" stroke="#C87353" stroke-width="2"/>
-      <path d="M929 235c13-11 25-9 35 4-15 8-27 6-35-4Z" stroke="#D3B15C" stroke-width="1.8"/>
-      <path d="M926 231c9-14 20-18 34-10" stroke="#D3B15C" stroke-width="1.8"/>
-    </g>
+    <circle cx="935" cy="156" r="10" stroke="#F6F2EA" stroke-width="1.5"/>
+    <path d="M928 152L935 158L942 152M928 152V160H942V152" stroke="#F6F2EA" stroke-width="1.2" stroke-linejoin="round"/>
+    <text x="954" y="160">linkedin.com/in/ronald-rodríguez</text>
   </g>
+
+  <g stroke="#D9C9DC" stroke-width="2" opacity=".9">
+    <path d="M148 225L180 195H225L193 225H148Z"/>
+    <path d="M197 225L229 195H274L242 225H197Z"/>
+    <path d="M926 195H971L1003 225H958L926 195Z"/>
+    <path d="M975 195H1020L1052 225H1007L975 195Z"/>
+  </g>
+
+  <text x="600" y="271" text-anchor="middle" class="mono" fill="#E8DCEA" font-size="11" letter-spacing="1.6">WEB · API · DATA · MOBILE</text>
 </svg>
