@@ -1,37 +1,31 @@
 <svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Hello, I am Ronald Rodríguez</title>
-  <desc id="desc">A simple purple profile banner for a full-stack product engineer.</desc>
+  <desc id="desc">A minimal petrol and terracotta profile banner for a full-stack product engineer.</desc>
   <style>
     .sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}.mono{font-family:ui-monospace,"SFMono-Regular",Consolas,monospace}
   </style>
 
-  <rect width="1200" height="300" fill="#4B105B"/>
-  <path d="M335 300V215C335 88 441 20 600 20C759 20 865 88 865 215V300H335Z" fill="#8D209E"/>
-  <path d="M436 300V224C436 140 502 92 600 92C698 92 764 140 764 224V300H436Z" fill="#731780" opacity=".72"/>
+  <rect width="1200" height="300" fill="#153332"/>
+  <rect x="860" width="340" height="300" fill="#C97354"/>
+  <rect x="0" width="12" height="300" fill="#94AA9B"/>
 
-  <circle cx="600" cy="71" r="39" fill="#F6F2EA"/>
-  <circle cx="600" cy="71" r="31" fill="#202126"/>
-  <text x="600" y="82" text-anchor="middle" class="sans" fill="#F6F2EA" font-size="30" font-weight="800">RR</text>
-
-  <text x="600" y="157" text-anchor="middle" class="sans" fill="#FFFFFF" font-size="48" font-weight="750" letter-spacing="-1">HELLO, I'M RONALD</text>
-  <text x="600" y="184" text-anchor="middle" class="mono" fill="#E8DCEA" font-size="12" letter-spacing="2">FULL-STACK PRODUCT ENGINEER</text>
-
-  <g class="mono" fill="#F6F2EA" font-size="12">
-    <circle cx="132" cy="156" r="10" stroke="#F6F2EA" stroke-width="1.5"/>
-    <path d="M126 156H138M132 150C135 153 135 159 132 162M132 150C129 153 129 159 132 162" stroke="#F6F2EA" stroke-width="1"/>
-    <text x="151" y="160">zedritg.github.io/ZedritG/</text>
-
-    <circle cx="935" cy="156" r="10" stroke="#F6F2EA" stroke-width="1.5"/>
-    <path d="M928 152L935 158L942 152M928 152V160H942V152" stroke="#F6F2EA" stroke-width="1.2" stroke-linejoin="round"/>
-    <text x="954" y="160">linkedin.com/in/ronald-rodríguez</text>
+  <g transform="translate(58 0)">
+    <text x="0" y="42" class="mono" fill="#AFC0B5" font-size="12" font-weight="700" letter-spacing="1.8">RONALD RODRÍGUEZ / ECUADOR</text>
+    <text x="0" y="116" class="sans" fill="#F3ECDF" font-size="45" font-weight="650" letter-spacing="-.6">HELLO, I'M</text>
+    <text x="0" y="190" class="sans" fill="#F3ECDF" font-size="78" font-weight="800" letter-spacing="-2">RONALD.</text>
+    <text x="4" y="226" class="sans" fill="#C7D2CB" font-size="18">I build clear products for complex operations.</text>
+    <path d="M4 248H742" stroke="#46615D"/>
+    <text x="4" y="276" class="mono" fill="#AFC0B5" font-size="12" letter-spacing="1.5">WEB · API · DATA · MOBILE</text>
   </g>
 
-  <g stroke="#D9C9DC" stroke-width="2" opacity=".9">
-    <path d="M148 225L180 195H225L193 225H148Z"/>
-    <path d="M197 225L229 195H274L242 225H197Z"/>
-    <path d="M926 195H971L1003 225H958L926 195Z"/>
-    <path d="M975 195H1020L1052 225H1007L975 195Z"/>
+  <g text-anchor="middle">
+    <circle cx="1030" cy="95" r="60" fill="#F3ECDF"/>
+    <circle cx="1030" cy="95" r="48" fill="#153332"/>
+    <text x="1030" y="110" class="sans" fill="#F3ECDF" font-size="40" font-weight="800">RR</text>
+    <text x="1030" y="184" class="sans" fill="#1A302F" font-size="21" font-weight="750">@ZedritG</text>
+    <path d="M925 204H1135" stroke="#9E4F39"/>
+    <text x="1030" y="230" class="mono" fill="#172523" font-size="11">zedritg.github.io/ZedritG/</text>
+    <text x="1030" y="254" class="mono" fill="#172523" font-size="11">linkedin.com/in/ronald-rodríguez</text>
+    <text x="1030" y="282" class="mono" fill="#172523" font-size="10" letter-spacing="1.4">FULL-STACK PRODUCT ENGINEER</text>
   </g>
-
-  <text x="600" y="271" text-anchor="middle" class="mono" fill="#E8DCEA" font-size="11" letter-spacing="1.6">WEB · API · DATA · MOBILE</text>
 </svg>
