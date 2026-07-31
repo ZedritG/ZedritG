@@ -1,51 +1,100 @@
 <svg width="720" height="940" viewBox="0 0 720 940" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Ronald Rodríguez — mobile profile card</title>
-  <desc id="desc">An animated vertical profile card for a full-stack product engineer.</desc>
+  <title id="title">Ronald Rodríguez — mobile profile poster</title>
+  <desc id="desc">A hand-drawn mobile profile poster about turning messy workflows into clear digital products.</desc>
   <defs>
-    <linearGradient id="bg" x1="90" y1="30" x2="650" y2="900" gradientUnits="userSpaceOnUse"><stop stop-color="#101319"/><stop offset=".46" stop-color="#211A25"/><stop offset="1" stop-color="#11151A"/></linearGradient>
-    <radialGradient id="glow"><stop stop-color="#75547D" stop-opacity=".42"/><stop offset="1" stop-color="#75547D" stop-opacity="0"/></radialGradient>
-    <linearGradient id="accent"><stop stop-color="#5C8A78"/><stop offset=".52" stop-color="#8C6F91"/><stop offset="1" stop-color="#C07A5A"/></linearGradient>
-    <filter id="blur"><feGaussianBlur stdDeviation="34"/></filter>
-    <filter id="shadow" x="-30%" y="-20%" width="160%" height="160%"><feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#000" flood-opacity=".5"/></filter>
+    <filter id="paper" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency=".72" numOctaves="3" seed="18" result="noise"/>
+      <feColorMatrix in="noise" type="saturate" values="0" result="mono"/>
+      <feComponentTransfer in="mono"><feFuncA type="table" tableValues="0 .06"/></feComponentTransfer>
+      <feBlend in="SourceGraphic" mode="soft-light"/>
+    </filter>
     <style>
-      .sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}.mono{font-family:ui-monospace,"SFMono-Regular",Consolas,monospace}
-      .star{animation:float 7s ease-in-out infinite}.star:nth-of-type(2n){animation-delay:-3s}.halo{animation:breathe 8s ease-in-out infinite}.status{animation:pulse 2.4s ease-out infinite;transform-box:fill-box;transform-origin:center}.cursor{animation:blink 1s steps(1) infinite}.line{stroke-dasharray:7 9;animation:dash 10s linear infinite}
-      @keyframes float{0%,100%{transform:translateY(0);opacity:.45}50%{transform:translateY(-12px);opacity:1}}@keyframes breathe{50%{transform:scale(1.12);opacity:.7}}@keyframes pulse{0%{opacity:.8;transform:scale(.7)}75%,100%{opacity:0;transform:scale(2)}}@keyframes blink{0%,48%{opacity:1}49%,100%{opacity:0}}@keyframes dash{to{stroke-dashoffset:-190}}
-      @media(prefers-reduced-motion:reduce){.star,.halo,.status,.cursor,.line{animation:none}}
+      .sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}.mono{font-family:ui-monospace,"SFMono-Regular",Consolas,monospace}.ink{stroke:#F3EEE5;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.soft{stroke:#AFA59D;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}.doodle{animation:drift 18s ease-in-out infinite;transform-box:fill-box;transform-origin:center}.doodle.alt{animation-delay:-9s;animation-duration:22s}.loop{stroke-dasharray:520;stroke-dashoffset:520;animation:draw 16s ease-in-out infinite}.blink{animation:blink 3.8s steps(2,end) infinite}.turn{animation:turn 30s linear infinite;transform-box:fill-box;transform-origin:center}
+      @keyframes drift{0%,100%{translate:0 0;rotate:-1deg}50%{translate:5px -6px;rotate:1.5deg}}@keyframes draw{0%,12%{stroke-dashoffset:520}44%,82%{stroke-dashoffset:0}100%{stroke-dashoffset:-520}}@keyframes blink{50%{opacity:.25}}@keyframes turn{to{transform:rotate(360deg)}}
+      @media(prefers-reduced-motion:reduce){.doodle,.loop,.blink,.turn{animation:none}.loop{stroke-dashoffset:0}}
     </style>
   </defs>
-  <rect x="1" y="1" width="718" height="938" rx="42" fill="url(#bg)" stroke="#3B3E40" stroke-width="2"/>
-  <ellipse class="halo" cx="360" cy="160" rx="270" ry="230" fill="url(#glow)" filter="url(#blur)"/>
-  <g fill="#F2F0EA"><circle class="star" cx="77" cy="100" r="2"/><circle class="star" cx="163" cy="57" r="2"/><circle class="star" cx="565" cy="83" r="1.5"/><circle class="star" cx="647" cy="175" r="2"/><circle class="star" cx="86" cy="373" r="1.5"/><circle class="star" cx="622" cy="455" r="2"/></g>
 
-  <g filter="url(#shadow)">
-    <circle cx="360" cy="155" r="75" fill="#1A1E24" stroke="url(#accent)" stroke-width="4"/>
-    <text x="360" y="175" text-anchor="middle" class="sans" fill="#F2F0EA" font-size="52" font-weight="800">RR</text>
-    <circle cx="415" cy="205" r="17" fill="#6BA875" stroke="#11151A" stroke-width="6"/>
-    <circle class="status" cx="415" cy="205" r="13" fill="#6BA875"/>
+  <g filter="url(#paper)">
+    <rect x="1" y="1" width="718" height="938" rx="38" fill="#14161A" stroke="#4B4645" stroke-width="2"/>
+    <path d="M42 315V191C42 74 149 26 360 26C571 26 678 74 678 191V315H42Z" fill="#57264E"/>
+    <path d="M112 315V210C112 128 195 91 360 91C525 91 608 128 608 210V315H112Z" fill="#742D65" opacity=".72"/>
+
+    <g class="mono" fill="#D4CAC0" font-size="12" letter-spacing="1.8">
+      <circle cx="56" cy="55" r="5" fill="#C87353"/>
+      <text x="73" y="60">ZEDRITG / HELLO NOTE</text>
+      <text x="664" y="60" text-anchor="end">02 / 2026</text>
+    </g>
+
+    <g class="doodle" transform="translate(55 100)">
+      <path class="ink" d="M0 31c22-18 39 17 59-1 18-16 33 11 50 0"/>
+      <path d="M6 51l12 10 16-24M82 12v26M69 25h26" stroke="#D3B15C" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="111" cy="56" r="6" fill="#A7BFAE"/>
+    </g>
+
+    <g class="doodle alt" transform="translate(548 103)">
+      <ellipse cx="46" cy="29" rx="42" ry="16" class="soft" transform="rotate(-14 46 29)"/>
+      <circle cx="46" cy="29" r="12" fill="#D3B15C"/>
+      <path d="M96 55c17-13 31-11 42 6-18 9-32 7-42-6Z" stroke="#A7BFAE" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M96 51c9-16 22-21 38-12" stroke="#A7BFAE" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+
+    <g class="turn">
+      <circle cx="360" cy="153" r="57" fill="#17191D" stroke="#A7BFAE" stroke-width="3"/>
+      <path d="M321 153a39 39 0 0 1 78 0a39 39 0 0 1-78 0Z" stroke="#C87353" stroke-width="3" stroke-dasharray="7 11"/>
+    </g>
+    <text x="360" y="168" text-anchor="middle" class="sans" fill="#F3EEE5" font-size="43" font-weight="850">RR</text>
+    <circle class="blink" cx="404" cy="194" r="12" fill="#5D816F" stroke="#14161A" stroke-width="5"/>
+
+    <g class="sans" text-anchor="middle">
+      <text x="360" y="250" fill="#D8C6D5" font-size="14" font-weight="700" letter-spacing="3">FULL-STACK PRODUCT ENGINEER</text>
+      <text x="360" y="351" fill="#F3EEE5" font-size="58" font-weight="880" letter-spacing="-1.5">HELLO, I'M RONALD.</text>
+      <path d="M163 370C272 382 449 379 556 367" stroke="#C87353" stroke-width="5" stroke-linecap="round"/>
+      <text x="360" y="410" fill="#B9B0A7" font-size="20">I turn messy workflows into clear products.</text>
+    </g>
+
+    <g transform="translate(54 458)">
+      <text x="0" y="0" class="mono" fill="#A9A098" font-size="12" letter-spacing="1.6">THE PRODUCT PATH / DRAWN, NOT DECORATED</text>
+      <path class="loop" d="M23 84C55 25 139 25 171 84C198 135 265 135 294 84C328 25 411 25 445 84C473 133 533 134 562 91" stroke="#BCA0B5" stroke-width="3" stroke-linecap="round" fill="none"/>
+      <path d="M553 79l14 12-17 8" stroke="#BCA0B5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <g class="doodle" transform="translate(8 46)">
+        <path class="ink" d="M4 20c17-15 27 18 44 2 13-12 24 9 36-2"/>
+        <text x="43" y="75" text-anchor="middle" class="mono" fill="#C8BFB5" font-size="11">LISTEN</text>
+      </g>
+      <g class="doodle alt" transform="translate(161 42)">
+        <rect x="0" y="0" width="87" height="55" rx="7" class="ink"/>
+        <path class="soft" d="M13 16h46M13 28h62M13 40h34"/>
+        <text x="43" y="79" text-anchor="middle" class="mono" fill="#C8BFB5" font-size="11">INTERFACE</text>
+      </g>
+      <g class="doodle" transform="translate(320 39)">
+        <ellipse cx="42" cy="11" rx="39" ry="10" class="ink"/>
+        <path class="ink" d="M3 11v39c0 6 18 11 39 11s39-5 39-11V11M3 31c0 6 18 11 39 11s39-5 39-11"/>
+        <text x="42" y="83" text-anchor="middle" class="mono" fill="#C8BFB5" font-size="11">TRUSTED DATA</text>
+      </g>
+      <g class="doodle alt" transform="translate(495 27)">
+        <rect x="5" y="0" width="64" height="91" rx="11" class="ink"/>
+        <path class="soft" d="M18 20h38M18 34h29"/>
+        <rect x="18" y="52" width="38" height="18" rx="4" fill="#5D816F"/>
+        <text x="37" y="112" text-anchor="middle" class="mono" fill="#C8BFB5" font-size="11">SHIP</text>
+      </g>
+    </g>
+
+    <path d="M54 631H666" stroke="#554C4B"/>
+
+    <g transform="translate(54 674)">
+      <text x="0" y="0" class="mono" fill="#A9A098" font-size="12" letter-spacing="1.6">WHAT I BUILD</text>
+      <g class="sans" font-size="19" font-weight="750">
+        <rect x="0" y="27" width="294" height="72" rx="14" fill="#202328" stroke="#5B5552"/><circle cx="28" cy="63" r="8" fill="#5D816F"/><text x="51" y="70" fill="#F3EEE5">Web platforms</text>
+        <rect x="318" y="27" width="294" height="72" rx="14" fill="#202328" stroke="#5B5552"/><circle cx="346" cy="63" r="8" fill="#B17B9F"/><text x="369" y="70" fill="#F3EEE5">Dependable APIs</text>
+        <rect x="0" y="115" width="294" height="72" rx="14" fill="#202328" stroke="#5B5552"/><circle cx="28" cy="151" r="8" fill="#D3B15C"/><text x="51" y="158" fill="#F3EEE5">Data systems</text>
+        <rect x="318" y="115" width="294" height="72" rx="14" fill="#202328" stroke="#5B5552"/><circle cx="346" cy="151" r="8" fill="#C87353"/><text x="369" y="158" fill="#F3EEE5">Mobile products</text>
+      </g>
+    </g>
+
+    <g transform="translate(185 885)">
+      <rect width="350" height="42" rx="21" fill="#F3EEE5"/>
+      <text x="175" y="27" text-anchor="middle" class="mono" fill="#201C20" font-size="12" font-weight="700" letter-spacing="1.2">UNDERSTAND · BUILD · LEARN</text>
+    </g>
   </g>
-
-  <text x="360" y="276" text-anchor="middle" class="sans" fill="#F2F0EA" font-size="34" font-weight="750">Ronald Rodríguez</text>
-  <text x="360" y="313" text-anchor="middle" class="mono" fill="#B094B5" font-size="18">@ZedritG</text>
-  <text x="360" y="358" text-anchor="middle" class="sans" fill="#C1C2BC" font-size="20">Full-Stack Product Engineer</text>
-  <text x="360" y="389" text-anchor="middle" class="sans" fill="#999E99" font-size="17">Clear products for complex operations.</text>
-
-  <rect x="221" y="423" width="278" height="50" rx="25" fill="url(#accent)"/>
-  <text x="360" y="455" text-anchor="middle" class="sans" fill="#11151A" font-size="16" font-weight="800">EXPLORE THE SYSTEM</text>
-
-  <path d="M66 513H654" stroke="#40365F"/>
-  <g class="sans" text-anchor="middle">
-    <text x="135" y="557" fill="#F2F0EA" font-size="23" font-weight="750">WEB</text><text x="135" y="584" fill="#777D78" font-size="13">interfaces</text>
-    <text x="285" y="557" fill="#F2F0EA" font-size="23" font-weight="750">API</text><text x="285" y="584" fill="#777D78" font-size="13">contracts</text>
-    <text x="435" y="557" fill="#F2F0EA" font-size="23" font-weight="750">DATA</text><text x="435" y="584" fill="#777D78" font-size="13">systems</text>
-    <text x="585" y="557" fill="#F2F0EA" font-size="23" font-weight="750">MOBILE</text><text x="585" y="584" fill="#777D78" font-size="13">field use</text>
-  </g>
-  <path d="M66 619H654" stroke="#40365F"/>
-
-  <text x="66" y="665" class="mono" fill="#B094B5" font-size="14" letter-spacing="1.5">PRODUCT LOOP</text>
-  <g class="sans">
-    <rect x="66" y="695" width="588" height="57" rx="15" fill="#FFFFFF" fill-opacity=".045" stroke="#FFFFFF" stroke-opacity=".09"/><text x="91" y="730" fill="#8DB3A8" font-size="14" font-weight="700">01</text><text x="137" y="731" fill="#F2F0EA" font-size="18" font-weight="650">Understand the workflow</text>
-    <rect x="66" y="766" width="588" height="57" rx="15" fill="#FFFFFF" fill-opacity=".045" stroke="#FFFFFF" stroke-opacity=".09"/><text x="91" y="801" fill="#C0A7C3" font-size="14" font-weight="700">02</text><text x="137" y="802" fill="#F2F0EA" font-size="18" font-weight="650">Shape and build the system</text>
-    <rect x="66" y="837" width="588" height="57" rx="15" fill="#FFFFFF" fill-opacity=".045" stroke="#FFFFFF" stroke-opacity=".09"/><text x="91" y="872" fill="#91B197" font-size="14" font-weight="700">03</text><text x="137" y="873" fill="#F2F0EA" font-size="18" font-weight="650">Ship evidence, then learn</text><rect class="cursor" x="389" y="854" width="9" height="23" rx="2" fill="#C07A5A"/></g>
-  <path class="line" d="M40 904H680" stroke="url(#accent)" stroke-width="2" opacity=".7"/>
 </svg>
