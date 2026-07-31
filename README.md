@@ -43,52 +43,22 @@ PostgreSQL/Redis infrastructure, deployment, and product behavior.
 
 <sub>Private product · Active development</sub>
 
-## Selected work you can inspect
+## Public work
 
-<a href="https://github.com/ZedritG/Revac_Qr">
-  <img src="./assets/revec-qr.png" width="100%" alt="Revec QR application interface" />
-</a>
-
-### Revec QR
+### Revec QR · [View repository →](https://github.com/ZedritG/Revac_Qr)
 
 A field-visit product built around QR scanning, geolocation, roles, and offline
 persistence—the details that matter once software leaves the desk and enters
 the real world.
 
-[`Repository and build notes →`](https://github.com/ZedritG/Revac_Qr)
-
-<br />
-
-<a href="https://github.com/ZedritG/Login_Application">
-  <img src="./assets/role-access.png" width="100%" alt="Role-aware dashboard interface" />
-</a>
-
-### Role-Based Access
+### Role-Based Access · [View repository →](https://github.com/ZedritG/Login_Application)
 
 Authentication and product permissions translated into the navigation,
 responsibilities, metrics, and controls each role actually needs.
 
-[`Repository and build notes →`](https://github.com/ZedritG/Login_Application)
-
 ## Product stack
 
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" width="42" height="42" alt="Vue" title="Vue" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="42" height="42" alt="TypeScript" title="TypeScript" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg" width="42" height="42" alt="NestJS" title="NestJS" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" width="42" height="42" alt="Node.js" title="Node.js" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" width="42" height="42" alt="PostgreSQL" title="PostgreSQL" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg" width="42" height="42" alt="Redis" title="Redis" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg" width="42" height="42" alt="Flutter" title="Flutter" />
-  &nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" width="42" height="42" alt="Docker" title="Docker" />
-</p>
+`Vue` · `TypeScript` · `NestJS` · `Node.js` · `PostgreSQL` · `Redis` · `Flutter` · `Docker`
 
 <details>
   <summary><strong>How I approach the work</strong></summary>
@@ -99,14 +69,6 @@ responsibilities, metrics, and controls each role actually needs.
   3. **Build** interface, backend, infrastructure, and field behavior together.
   4. **Prove** the result with tests, builds, screenshots, and decisions.
 </details>
-
-## Contribution loop
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZedritG/ZedritG/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ZedritG/ZedritG/output/github-contribution-grid-snake.svg" />
-  <img width="100%" alt="Animated GitHub contribution graph" src="https://raw.githubusercontent.com/ZedritG/ZedritG/output/github-contribution-grid-snake.svg" />
-</picture>
 
 ---
 
