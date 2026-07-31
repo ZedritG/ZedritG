@@ -8,6 +8,7 @@ on:
     branches: [main]
     paths:
       - ".github/workflows/snake.yml"
+      - "scripts/slow-snake.mjs"
 
 permissions:
   contents: write
@@ -21,10 +22,14 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=#8b5cf6&color_dots=#ebedf0,#ddd6fe,#a78bfa,#7c3aed,#4c1d95
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#67e8f9&color_dots=#161b22,#312e81,#6d28d9,#a855f7,#ec4899
+            dist/github-contribution-grid-snake.svg?color_snake=#8c6f91&color_dots=#ebedf0,#dbe7df,#a9c4b0,#6ba875,#3f6f50
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#c07a5a&color_dots=#171b21,#283b31,#3f6f50,#6ba875,#8fb596
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Slow the animation rhythm
+        env:
+          SNAKE_SPEED_FACTOR: "1.4"
+        run: node scripts/slow-snake.mjs dist/github-contribution-grid-snake.svg dist/github-contribution-grid-snake-dark.svg
       - name: Publish generated assets
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

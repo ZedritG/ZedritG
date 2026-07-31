@@ -3,22 +3,22 @@
   <desc id="desc">An animated violet profile banner about building web, API, data, and mobile products.</desc>
   <defs>
     <linearGradient id="bg" x1="40" y1="20" x2="1160" y2="420" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#080B18" />
-      <stop offset="0.52" stop-color="#15102E" />
-      <stop offset="1" stop-color="#090B17" />
+      <stop stop-color="#101319" />
+      <stop offset="0.52" stop-color="#211A25" />
+      <stop offset="1" stop-color="#11151A" />
     </linearGradient>
     <radialGradient id="violetGlow">
-      <stop stop-color="#8B5CF6" stop-opacity=".48" />
-      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0" />
+      <stop stop-color="#75547D" stop-opacity=".38" />
+      <stop offset="1" stop-color="#75547D" stop-opacity="0" />
     </radialGradient>
     <radialGradient id="cyanGlow">
-      <stop stop-color="#22D3EE" stop-opacity=".25" />
-      <stop offset="1" stop-color="#22D3EE" stop-opacity="0" />
+      <stop stop-color="#4F7A72" stop-opacity=".24" />
+      <stop offset="1" stop-color="#4F7A72" stop-opacity="0" />
     </radialGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#22D3EE" />
-      <stop offset=".52" stop-color="#8B5CF6" />
-      <stop offset="1" stop-color="#EC4899" />
+      <stop stop-color="#5C8A78" />
+      <stop offset=".52" stop-color="#8C6F91" />
+      <stop offset="1" stop-color="#C07A5A" />
     </linearGradient>
     <filter id="blur"><feGaussianBlur stdDeviation="24" /></filter>
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#000" flood-opacity=".45" /></filter>
@@ -48,13 +48,13 @@
     </style>
   </defs>
 
-  <rect x="1" y="1" width="1198" height="438" rx="24" fill="url(#bg)" stroke="#373054" stroke-width="2" />
+  <rect x="1" y="1" width="1198" height="438" rx="24" fill="url(#bg)" stroke="#3B3E40" stroke-width="2" />
   <g opacity=".9" filter="url(#blur)">
     <ellipse class="aurora-a" cx="304" cy="70" rx="250" ry="125" fill="url(#violetGlow)" />
     <ellipse class="aurora-b" cx="1038" cy="355" rx="245" ry="160" fill="url(#cyanGlow)" />
   </g>
 
-  <g fill="#F8FAFC">
+  <g fill="#F2F0EA">
     <circle class="particle" cx="78" cy="63" r="2" />
     <circle class="particle" cx="174" cy="37" r="1.5" />
     <circle class="particle" cx="329" cy="71" r="1.6" />
@@ -69,55 +69,55 @@
 
   <g class="sans">
     <g transform="translate(50 42)">
-      <circle cx="6" cy="6" r="6" fill="#34D399" />
-      <circle class="status" cx="6" cy="6" r="6" fill="#34D399" />
-      <text x="24" y="11" fill="#CBD5E1" font-size="13" font-weight="600" letter-spacing="1.3">BUILDING END TO END</text>
+      <circle cx="6" cy="6" r="6" fill="#6BA875" />
+      <circle class="status" cx="6" cy="6" r="6" fill="#6BA875" />
+      <text x="24" y="11" fill="#B7BAB4" font-size="13" font-weight="600" letter-spacing="1.3">BUILDING END TO END</text>
     </g>
 
-    <text x="50" y="125" fill="#A78BFA" font-size="16" font-weight="700" letter-spacing="2">RONALD RODRÍGUEZ</text>
-    <text x="50" y="184" fill="#F8FAFC" font-size="49" font-weight="750">Full-Stack Product</text>
-    <text x="50" y="241" fill="#F8FAFC" font-size="49" font-weight="750">Engineer.</text>
+    <text x="50" y="125" fill="#B094B5" font-size="16" font-weight="700" letter-spacing="2">RONALD RODRÍGUEZ</text>
+    <text x="50" y="184" fill="#F2F0EA" font-size="49" font-weight="750">Full-Stack Product</text>
+    <text x="50" y="241" fill="#F2F0EA" font-size="49" font-weight="750">Engineer.</text>
     <rect x="50" y="259" width="382" height="4" rx="2" fill="url(#accent)" />
     <g class="reveal">
-      <text x="50" y="302" fill="#CBD5E1" font-size="20" font-weight="500">I turn operational complexity into products</text>
-      <text x="50" y="330" fill="#CBD5E1" font-size="20" font-weight="500">people can understand, trust, and use.</text>
+      <text x="50" y="302" fill="#C1C2BC" font-size="20" font-weight="500">I turn operational complexity into products</text>
+      <text x="50" y="330" fill="#C1C2BC" font-size="20" font-weight="500">people can understand, trust, and use.</text>
     </g>
 
     <g class="mono" font-size="12" font-weight="700">
-      <rect x="50" y="365" width="78" height="31" rx="15.5" fill="#22D3EE" fill-opacity=".12" stroke="#22D3EE" stroke-opacity=".45" />
-      <rect x="138" y="365" width="78" height="31" rx="15.5" fill="#8B5CF6" fill-opacity=".16" stroke="#A78BFA" stroke-opacity=".45" />
-      <rect x="226" y="365" width="78" height="31" rx="15.5" fill="#EC4899" fill-opacity=".12" stroke="#EC4899" stroke-opacity=".4" />
-      <rect x="314" y="365" width="95" height="31" rx="15.5" fill="#34D399" fill-opacity=".12" stroke="#34D399" stroke-opacity=".4" />
-      <text x="89" y="385" text-anchor="middle" fill="#67E8F9">WEB</text>
-      <text x="177" y="385" text-anchor="middle" fill="#C4B5FD">API</text>
-      <text x="265" y="385" text-anchor="middle" fill="#F9A8D4">DATA</text>
-      <text x="361.5" y="385" text-anchor="middle" fill="#6EE7B7">MOBILE</text>
+      <rect x="50" y="365" width="78" height="31" rx="15.5" fill="#5C8A78" fill-opacity=".13" stroke="#7FA391" stroke-opacity=".5" />
+      <rect x="138" y="365" width="78" height="31" rx="15.5" fill="#8C6F91" fill-opacity=".15" stroke="#B094B5" stroke-opacity=".45" />
+      <rect x="226" y="365" width="78" height="31" rx="15.5" fill="#C07A5A" fill-opacity=".12" stroke="#C98B6C" stroke-opacity=".45" />
+      <rect x="314" y="365" width="95" height="31" rx="15.5" fill="#6BA875" fill-opacity=".12" stroke="#83A88A" stroke-opacity=".45" />
+      <text x="89" y="385" text-anchor="middle" fill="#8DB3A8">WEB</text>
+      <text x="177" y="385" text-anchor="middle" fill="#C0A7C3">API</text>
+      <text x="265" y="385" text-anchor="middle" fill="#D39A7D">DATA</text>
+      <text x="361.5" y="385" text-anchor="middle" fill="#91B197">MOBILE</text>
     </g>
   </g>
 
   <path class="signal" d="M592 61C620 116 618 302 594 380" stroke="url(#accent)" stroke-width="2" opacity=".42" />
 
   <g class="card" filter="url(#shadow)">
-    <rect x="679" y="83" width="432" height="270" rx="18" fill="#111527" stroke="#4C416E" stroke-width="1.5" />
+    <rect x="679" y="83" width="432" height="270" rx="18" fill="#171B21" stroke="#49464D" stroke-width="1.5" />
     <g clip-path="url(#terminalClip)">
-      <rect x="679" y="83" width="432" height="46" fill="#181C31" />
-      <circle cx="706" cy="106" r="5" fill="#FB7185" />
-      <circle cx="725" cy="106" r="5" fill="#FBBF24" />
-      <circle cx="744" cy="106" r="5" fill="#34D399" />
-      <text x="774" y="111" class="mono" fill="#94A3B8" font-size="12">product-system.ts</text>
+      <rect x="679" y="83" width="432" height="46" fill="#1E232A" />
+      <circle cx="706" cy="106" r="5" fill="#C07A5A" />
+      <circle cx="725" cy="106" r="5" fill="#C69B53" />
+      <circle cx="744" cy="106" r="5" fill="#6BA875" />
+      <text x="774" y="111" class="mono" fill="#9FA49F" font-size="12">product-system.ts</text>
       <g class="mono" font-size="15">
-        <text x="709" y="164" fill="#64748B">01</text>
-        <text x="750" y="164" fill="#67E8F9">workflow</text><text x="828" y="164" fill="#F8FAFC">.understand()</text>
-        <text x="709" y="204" fill="#64748B">02</text>
-        <text x="750" y="204" fill="#C4B5FD">product</text><text x="820" y="204" fill="#F8FAFC">.shape()</text>
-        <text x="709" y="244" fill="#64748B">03</text>
-        <text x="750" y="244" fill="#F9A8D4">system</text><text x="811" y="244" fill="#F8FAFC">.build()</text>
-        <text x="709" y="284" fill="#64748B">04</text>
-        <text x="750" y="284" fill="#6EE7B7">evidence</text><text x="830" y="284" fill="#F8FAFC">.ship()</text>
-        <text x="709" y="324" fill="#64748B">→</text>
-        <text x="750" y="324" fill="#F8FAFC">learn</text><rect class="cursor" x="796" y="309" width="8" height="18" rx="1" fill="#A78BFA" />
+        <text x="709" y="164" fill="#707872">01</text>
+        <text x="750" y="164" fill="#8DB3A8">workflow</text><text x="828" y="164" fill="#F2F0EA">.understand()</text>
+        <text x="709" y="204" fill="#707872">02</text>
+        <text x="750" y="204" fill="#C0A7C3">product</text><text x="820" y="204" fill="#F2F0EA">.shape()</text>
+        <text x="709" y="244" fill="#707872">03</text>
+        <text x="750" y="244" fill="#D39A7D">system</text><text x="811" y="244" fill="#F2F0EA">.build()</text>
+        <text x="709" y="284" fill="#707872">04</text>
+        <text x="750" y="284" fill="#91B197">evidence</text><text x="830" y="284" fill="#F2F0EA">.ship()</text>
+        <text x="709" y="324" fill="#707872">→</text>
+        <text x="750" y="324" fill="#F2F0EA">learn</text><rect class="cursor" x="796" y="309" width="8" height="18" rx="1" fill="#B094B5" />
       </g>
     </g>
   </g>
-  <text x="1148" y="410" text-anchor="end" class="mono" fill="#64748B" font-size="11" letter-spacing="1">WEB · API · DATA · MOBILE</text>
+  <text x="1148" y="410" text-anchor="end" class="mono" fill="#777D78" font-size="11" letter-spacing="1">WEB · API · DATA · MOBILE</text>
 </svg>
