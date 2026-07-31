@@ -1,119 +1,101 @@
-<!-- Full-stack product engineering profile for github.com/ZedritG -->
-
 <div align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Ronald Rodríguez — Full-Stack Product Engineer" />
+  <img
+    src="./assets/hero.svg"
+    width="100%"
+    alt="Ronald Rodríguez turns operational complexity into useful digital products"
+  />
 </div>
 
-<br />
+### Hey, I’m Ronald — online I go by `ZedritG`.
 
-I design and build digital products end to end: interfaces people understand,
-APIs teams can evolve, data layers they can trust, and mobile experiences that
-work in the real world.
+I build software for the space between **“we need this”** and **“people rely on
+this every day.”**
 
-My work sits at the intersection of **product thinking**, **software
-architecture**, and **visual craft**. I care about the full path from a business
-workflow to a reliable, polished experience.
+That usually means understanding an awkward real-world workflow, shaping the
+interface, designing the API and data model, and making sure the mobile or web
+experience still works when conditions are less than ideal.
 
-<p>
-  <a href="https://www.linkedin.com/in/ronald-rodr%C3%ADguez-144842276/">
-    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Let's%20connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://github.com/ZedritG?tab=repositories">
-    <img alt="Repositories" src="https://img.shields.io/badge/GitHub-Explore%20my%20work-181717?style=flat-square&logo=github&logoColor=white" />
-  </a>
-</p>
+I’m a full-stack product engineer, but I don’t collect technologies. I use the
+parts a product actually needs.
 
-## Product spectrum
+[LinkedIn](https://www.linkedin.com/in/ronald-rodr%C3%ADguez-144842276/)
+· [Public repositories](https://github.com/ZedritG?tab=repositories)
+· English / Español
 
-<div align="center">
-  <img src="./assets/product-spectrum.svg" width="100%" alt="Frontend, backend, data and mobile product engineering" />
-</div>
+## On my workbench
 
-| Layer | Tools I use |
-| --- | --- |
-| **Frontend** | Vue, TypeScript, Vite, Tailwind CSS, responsive product UI |
-| **Backend** | Node.js, NestJS, Express, REST APIs, WebSockets, validation |
-| **Data & delivery** | PostgreSQL, Redis, Prisma, Drizzle ORM, Docker, CI/CD |
-| **Mobile** | Flutter, Dart, Riverpod, Firebase, offline-first workflows |
+> The common thread in my projects is not a framework. It is an operational
+> problem that deserves a clearer system.
 
-## Product systems in development
+### Gym Strike
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>KtrApp</h3>
-      <p>
-        A multi-surface product platform combining a NestJS API,
-        PostgreSQL/Redis infrastructure, real-time capabilities, deployment
-        automation, and a Flutter client.
-      </p>
-      <p><code>NestJS</code> <code>Prisma</code> <code>PostgreSQL</code> <code>Redis</code> <code>Flutter</code></p>
-      <sub>Private product · Active development</sub>
-    </td>
-    <td width="50%" valign="top">
-      <h3>Gym Strike</h3>
-      <p>
-        A full-stack operations platform for memberships, payments, point of
-        sale, inventory, cash closing, audit, and business reporting.
-      </p>
-      <p><code>Vue</code> <code>TypeScript</code> <code>Express</code> <code>PostgreSQL</code> <code>Drizzle</code></p>
-      <sub>Private product · Active development</sub>
-    </td>
-  </tr>
-</table>
+A full-stack operations product for the daily reality of a gym: memberships,
+payments, point of sale, inventory, cash closing, audit trails, and reporting.
+The interesting part is making those workflows feel like one product instead of
+seven disconnected modules.
 
-## Selected public work
+`Vue` `TypeScript` `Express` `PostgreSQL` `Drizzle`
+
+<sub>Private product · Active development</sub>
+
+### KtrApp
+
+A multi-surface product where a Flutter client, real-time capabilities, and a
+NestJS backend share one dependable product model. I’m working across API
+boundaries, PostgreSQL/Redis infrastructure, deployment, and the client
+experience.
+
+`NestJS` `Prisma` `PostgreSQL` `Redis` `Flutter`
+
+<sub>Private product · Active development</sub>
+
+## Things you can open
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/ZedritG/Revac_Qr">
-        <img src="./assets/revec-qr.png" width="100%" alt="Revec QR login experience" />
+        <img src="./assets/revec-qr.png" width="100%" alt="Revec QR login screen" />
       </a>
       <h3>Revec QR</h3>
       <p>
-        Offline-first field visit tracking with QR/barcode scanning,
-        geolocation, role-aware workflows, and local persistence.
+        A field-visit app built around QR scanning, geolocation, roles, and
+        offline persistence—the details that matter once software leaves the
+        desk and enters the real world.
       </p>
-      <p><code>Flutter</code> <code>Riverpod</code> <code>Hive</code> <code>Geolocation</code></p>
-      <a href="https://github.com/ZedritG/Revac_Qr"><strong>View case study →</strong></a>
+      <a href="https://github.com/ZedritG/Revac_Qr"><strong>Read the build notes →</strong></a>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/ZedritG/Login_Application">
-        <img src="./assets/role-access.png" width="100%" alt="Role-based access dashboard" />
+        <img src="./assets/role-access.png" width="100%" alt="Role-aware dashboard" />
       </a>
       <h3>Role-Based Access</h3>
       <p>
-        A security-focused Flutter experience that adapts navigation,
-        responsibilities, metrics, and controls to each user role.
+        An exploration of authentication and product permissions: each role
+        gets the navigation, responsibilities, metrics, and controls it
+        actually needs.
       </p>
-      <p><code>Flutter</code> <code>Riverpod</code> <code>Material 3</code> <code>Responsive UI</code></p>
-      <a href="https://github.com/ZedritG/Login_Application"><strong>View case study →</strong></a>
+      <a href="https://github.com/ZedritG/Login_Application"><strong>Read the build notes →</strong></a>
     </td>
   </tr>
 </table>
 
-## How I approach engineering
+## The way I build
 
-- **Start from the workflow.** The product model comes before the framework.
-- **Make boundaries explicit.** Typed contracts and clear layers keep change affordable.
-- **Design secure defaults.** Authentication, validation, audit, and secrets are product concerns.
-- **Build for real conditions.** Offline flows, failure states, observability, and recovery matter.
-- **Validate before shipping.** Analysis, tests, builds, and documented decisions are part of delivery.
+- **Start with the messy workflow.** The framework comes later.
+- **Draw the boundaries.** Typed contracts and clear ownership make change safer.
+- **Design the unhappy paths.** Offline states, validation, recovery, and audit are part of the product.
+- **Ship evidence.** Tests, builds, screenshots, and documented decisions belong with the code.
 
-## Current focus
-
-- Building end-to-end product systems with TypeScript, PostgreSQL, and Flutter.
-- Turning operational complexity into clear interfaces and dependable APIs.
-- Improving architecture, security, automation, and visual communication together.
+<details>
+  <summary><strong>Tools I currently reach for</strong></summary>
+  <br />
+  Vue, TypeScript, Vite, Tailwind CSS, Node.js, NestJS, Express, REST,
+  WebSockets, PostgreSQL, Redis, Prisma, Drizzle, Flutter, Dart, Riverpod,
+  Firebase, Docker, and GitHub Actions.
+</details>
 
 ---
 
-<p align="center">
-  <strong>Have a product problem worth solving?</strong><br />
-  <a href="https://www.linkedin.com/in/ronald-rodr%C3%ADguez-144842276/">Let's talk on LinkedIn</a>
-  ·
-  <a href="https://github.com/ZedritG?tab=repositories">Explore my repositories</a>
-  <br /><br />
-  <sub>English · Español</sub>
-</p>
+**If you have an operational mess worth turning into software, I’d like to hear
+about it.** [Say hello on LinkedIn](https://www.linkedin.com/in/ronald-rodr%C3%ADguez-144842276/).
