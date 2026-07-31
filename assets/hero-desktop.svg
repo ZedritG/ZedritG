@@ -1,31 +1,44 @@
 <svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Hello, I am Ronald Rodríguez</title>
-  <desc id="desc">A minimal petrol and terracotta profile banner for a full-stack product engineer.</desc>
+  <title id="title">Ronald Rodríguez — Full-Stack Product Engineer</title>
+  <desc id="desc">A typographic editorial profile banner built on an asymmetric grid.</desc>
   <style>
-    .sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}.mono{font-family:ui-monospace,"SFMono-Regular",Consolas,monospace}
+    .sans{font-family:Arial,Helvetica,sans-serif}.mono{font-family:"Courier New",Consolas,monospace}
   </style>
 
-  <rect width="1200" height="300" fill="#153332"/>
-  <rect x="860" width="340" height="300" fill="#C97354"/>
-  <rect x="0" width="12" height="300" fill="#94AA9B"/>
+  <rect width="1200" height="300" fill="#EEE9DE"/>
+  <rect width="18" height="300" fill="#D65035"/>
+  <path d="M54 42H1148M54 244H1148M836 42V244" stroke="#171A1C" stroke-width="1"/>
 
-  <g transform="translate(58 0)">
-    <text x="0" y="42" class="mono" fill="#AFC0B5" font-size="12" font-weight="700" letter-spacing="1.8">RONALD RODRÍGUEZ / ECUADOR</text>
-    <text x="0" y="116" class="sans" fill="#F3ECDF" font-size="45" font-weight="650" letter-spacing="-.6">HELLO, I'M</text>
-    <text x="0" y="190" class="sans" fill="#F3ECDF" font-size="78" font-weight="800" letter-spacing="-2">RONALD.</text>
-    <text x="4" y="226" class="sans" fill="#C7D2CB" font-size="18">I build clear products for complex operations.</text>
-    <path d="M4 248H742" stroke="#46615D"/>
-    <text x="4" y="276" class="mono" fill="#AFC0B5" font-size="12" letter-spacing="1.5">WEB · API · DATA · MOBILE</text>
+  <g class="mono" fill="#171A1C" font-size="11" font-weight="700" letter-spacing="1.4">
+    <text x="54" y="30">ZEDRITG / PROFILE 01</text>
+    <text x="1148" y="30" text-anchor="end">ECUADOR · 2026</text>
   </g>
 
-  <g text-anchor="middle">
-    <circle cx="1030" cy="95" r="60" fill="#F3ECDF"/>
-    <circle cx="1030" cy="95" r="48" fill="#153332"/>
-    <text x="1030" y="110" class="sans" fill="#F3ECDF" font-size="40" font-weight="800">RR</text>
-    <text x="1030" y="184" class="sans" fill="#1A302F" font-size="21" font-weight="750">@ZedritG</text>
-    <path d="M925 204H1135" stroke="#9E4F39"/>
-    <text x="1030" y="230" class="mono" fill="#172523" font-size="11">zedritg.github.io/ZedritG/</text>
-    <text x="1030" y="254" class="mono" fill="#172523" font-size="11">linkedin.com/in/ronald-rodríguez</text>
-    <text x="1030" y="282" class="mono" fill="#172523" font-size="10" letter-spacing="1.4">FULL-STACK PRODUCT ENGINEER</text>
+  <g class="sans">
+    <text x="54" y="113" fill="#171A1C" font-size="65" font-weight="800" letter-spacing="-2">RONALD</text>
+    <text x="50" y="211" fill="#1D4D91" font-size="91" font-weight="800" letter-spacing="-4">RODRÍGUEZ</text>
+    <rect x="547" y="177" width="83" height="10" fill="#D65035"/>
+  </g>
+
+  <g transform="translate(870 68)">
+    <text x="0" y="0" class="mono" fill="#1D4D91" font-size="11" font-weight="700" letter-spacing="1.7">FULL-STACK</text>
+    <text x="0" y="43" class="sans" fill="#171A1C" font-size="34" font-weight="800">PRODUCT</text>
+    <text x="0" y="80" class="sans" fill="#171A1C" font-size="34" font-weight="800">ENGINEER</text>
+    <path d="M0 102H278" stroke="#171A1C"/>
+    <text x="0" y="128" class="mono" fill="#171A1C" font-size="11">@ZedritG</text>
+    <text x="278" y="128" text-anchor="end" class="mono" fill="#171A1C" font-size="11">WEB / API / DATA / MOBILE</text>
+  </g>
+
+  <rect y="260" width="1200" height="40" fill="#171A1C"/>
+  <g class="mono" font-size="11" font-weight="700" letter-spacing="1.3">
+    <text x="54" y="285" fill="#EEE9DE">WORKFLOW</text>
+    <text x="240" y="285" fill="#EEE9DE">INTERFACE</text>
+    <text x="437" y="285" fill="#EEE9DE">API</text>
+    <text x="570" y="285" fill="#EEE9DE">DATA</text>
+    <text x="722" y="285" fill="#EEE9DE">FIELD</text>
+    <text x="1148" y="285" text-anchor="end" fill="#A8B8D1">UNDERSTAND → BUILD → LEARN</text>
+  </g>
+  <g stroke="#D65035" stroke-width="2">
+    <path d="M132 280H211"/><path d="M322 280H408"/><path d="M474 280H541"/><path d="M617 280H693"/>
   </g>
 </svg>

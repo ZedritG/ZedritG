@@ -8,15 +8,9 @@
     />
   </picture>
   <br /><br />
-  <strong>
-    <a href="https://zedritg.github.io/ZedritG/">Open the interactive profile ↗</a>
-  </strong>
-  &nbsp;·&nbsp;
   <a href="https://www.linkedin.com/in/ronald-rodr%C3%ADguez-144842276/">LinkedIn</a>
   &nbsp;·&nbsp;
   <a href="https://github.com/ZedritG?tab=repositories">Repositories</a>
-  <br />
-  <sub>English / Español</sub>
 </div>
 
 ## I build the whole product path
@@ -76,6 +70,4 @@ responsibilities, metrics, and controls each role actually needs.
   <strong>Have an operational problem worth turning into a clear product?</strong>
   <br /><br />
   <a href="https://www.linkedin.com/in/ronald-rodr%C3%ADguez-144842276/">Let’s talk on LinkedIn</a>
-  &nbsp;·&nbsp;
-  <a href="https://zedritg.github.io/ZedritG/">Explore the interactive profile</a>
 </div>
