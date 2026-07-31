@@ -2,54 +2,48 @@
   <img
     src="./assets/hero.svg"
     width="100%"
-    alt="Ronald Rodríguez turns operational complexity into useful digital products"
+    alt="Ronald Rodríguez — Full-Stack Product Engineer"
   />
+  <br /><br />
+  <a href="https://www.linkedin.com/in/ronald-rodr%C3%ADguez-144842276/">LinkedIn</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/ZedritG?tab=repositories">Public repositories</a>
+  &nbsp;·&nbsp;
+  English / Español
 </div>
 
-### Hey, I’m Ronald — online I go by `ZedritG`.
+## I build the whole product path
 
-I build software for the space between **“we need this”** and **“people rely on
-this every day.”**
+I work where a real operational problem has to become a dependable product:
+from the workflow and interface to the API, data model, deployment, and mobile
+experience. My stack changes with the problem; clarity and reliability do not.
 
-That usually means understanding an awkward real-world workflow, shaping the
-interface, designing the API and data model, and making sure the mobile or web
-experience still works when conditions are less than ideal.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Gym Strike</h3>
+      <p><strong>Operations platform for gyms</strong></p>
+      <p>
+        Memberships, payments, point of sale, inventory, cash closing, audit
+        trails, and reporting designed as one coherent product.
+      </p>
+      <p><code>Vue</code> <code>TypeScript</code> <code>Express</code> <code>PostgreSQL</code> <code>Drizzle</code></p>
+      <sub>Private product · Active development</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3>KtrApp</h3>
+      <p><strong>Real-time web, API, and mobile system</strong></p>
+      <p>
+        A Flutter client and NestJS backend sharing dependable contracts,
+        PostgreSQL/Redis infrastructure, deployment, and product behavior.
+      </p>
+      <p><code>NestJS</code> <code>Prisma</code> <code>PostgreSQL</code> <code>Redis</code> <code>Flutter</code></p>
+      <sub>Private product · Active development</sub>
+    </td>
+  </tr>
+</table>
 
-I’m a full-stack product engineer, but I don’t collect technologies. I use the
-parts a product actually needs.
-
-[LinkedIn](https://www.linkedin.com/in/ronald-rodr%C3%ADguez-144842276/)
-· [Public repositories](https://github.com/ZedritG?tab=repositories)
-· English / Español
-
-## On my workbench
-
-> The common thread in my projects is not a framework. It is an operational
-> problem that deserves a clearer system.
-
-### Gym Strike
-
-A full-stack operations product for the daily reality of a gym: memberships,
-payments, point of sale, inventory, cash closing, audit trails, and reporting.
-The interesting part is making those workflows feel like one product instead of
-seven disconnected modules.
-
-`Vue` `TypeScript` `Express` `PostgreSQL` `Drizzle`
-
-<sub>Private product · Active development</sub>
-
-### KtrApp
-
-A multi-surface product where a Flutter client, real-time capabilities, and a
-NestJS backend share one dependable product model. I’m working across API
-boundaries, PostgreSQL/Redis infrastructure, deployment, and the client
-experience.
-
-`NestJS` `Prisma` `PostgreSQL` `Redis` `Flutter`
-
-<sub>Private product · Active development</sub>
-
-## Things you can open
+## Selected work you can inspect
 
 <table>
   <tr>
@@ -63,7 +57,7 @@ experience.
         offline persistence—the details that matter once software leaves the
         desk and enters the real world.
       </p>
-      <a href="https://github.com/ZedritG/Revac_Qr"><strong>Read the build notes →</strong></a>
+      <a href="https://github.com/ZedritG/Revac_Qr"><strong>Repository and build notes →</strong></a>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/ZedritG/Login_Application">
@@ -75,17 +69,16 @@ experience.
         gets the navigation, responsibilities, metrics, and controls it
         actually needs.
       </p>
-      <a href="https://github.com/ZedritG/Login_Application"><strong>Read the build notes →</strong></a>
+      <a href="https://github.com/ZedritG/Login_Application"><strong>Repository and build notes →</strong></a>
     </td>
   </tr>
 </table>
 
-## The way I build
+## How I approach the work
 
-- **Start with the messy workflow.** The framework comes later.
-- **Draw the boundaries.** Typed contracts and clear ownership make change safer.
-- **Design the unhappy paths.** Offline states, validation, recovery, and audit are part of the product.
-- **Ship evidence.** Tests, builds, screenshots, and documented decisions belong with the code.
+| 01 — Understand | 02 — Define | 03 — Build | 04 — Prove |
+| --- | --- | --- | --- |
+| Start with the real workflow and its constraints. | Draw clear product, data, and API boundaries. | Design the happy path and the recovery paths together. | Ship tests, builds, screenshots, and documented decisions. |
 
 <details>
   <summary><strong>Tools I currently reach for</strong></summary>
@@ -97,5 +90,5 @@ experience.
 
 ---
 
-**If you have an operational mess worth turning into software, I’d like to hear
-about it.** [Say hello on LinkedIn](https://www.linkedin.com/in/ronald-rodr%C3%ADguez-144842276/).
+**Have an operational problem worth turning into a clear product?**
+[Let’s talk on LinkedIn](https://www.linkedin.com/in/ronald-rodr%C3%ADguez-144842276/).
