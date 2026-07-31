@@ -117,7 +117,7 @@ if (!prefersReducedMotion) {
       if (particle.y < -4) particle.y = window.innerHeight + 4;
       context.beginPath();
       context.arc(particle.x, particle.y, particle.radius, 0, Math.PI * 2);
-      context.fillStyle = `rgba(196,181,253,${particle.alpha})`;
+      context.fillStyle = `rgba(176,148,181,${particle.alpha})`;
       context.fill();
     });
     animationFrame = requestAnimationFrame(drawParticles);
