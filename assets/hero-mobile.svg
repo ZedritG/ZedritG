@@ -1,32 +1,33 @@
 <svg width="720" height="420" viewBox="0 0 720 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Hello, I am Ronald Rodríguez</title>
-  <desc id="desc">A minimal petrol and terracotta mobile profile banner for a full-stack product engineer.</desc>
+  <title id="title">Ronald Rodríguez — Full-Stack Product Engineer</title>
+  <desc id="desc">A mobile typographic editorial profile banner built on an asymmetric grid.</desc>
   <style>
-    .sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}.mono{font-family:ui-monospace,"SFMono-Regular",Consolas,monospace}
+    .sans{font-family:Arial,Helvetica,sans-serif}.mono{font-family:"Courier New",Consolas,monospace}
   </style>
 
-  <rect width="720" height="420" fill="#153332"/>
-  <rect x="520" width="200" height="420" fill="#C97354"/>
-  <rect x="0" width="10" height="420" fill="#94AA9B"/>
+  <rect width="720" height="420" fill="#EEE9DE"/>
+  <rect width="14" height="420" fill="#D65035"/>
+  <path d="M42 48H678M42 248H678" stroke="#171A1C"/>
 
-  <g transform="translate(38 0)">
-    <text x="0" y="45" class="mono" fill="#AFC0B5" font-size="12" font-weight="700" letter-spacing="1.5">RONALD RODRÍGUEZ / ECUADOR</text>
-    <text x="0" y="125" class="sans" fill="#F3ECDF" font-size="43" font-weight="650">HELLO, I'M</text>
-    <text x="0" y="198" class="sans" fill="#F3ECDF" font-size="73" font-weight="800" letter-spacing="-2">RONALD.</text>
-    <text x="3" y="239" class="sans" fill="#C7D2CB" font-size="18">Clear products for complex operations.</text>
-    <path d="M3 267H450" stroke="#46615D"/>
-    <text x="3" y="299" class="mono" fill="#AFC0B5" font-size="12" letter-spacing="1.3">WEB · API · DATA · MOBILE</text>
-    <text x="3" y="363" class="mono" fill="#C7D2CB" font-size="12">zedritg.github.io/ZedritG/</text>
-    <text x="3" y="389" class="mono" fill="#C7D2CB" font-size="12">linkedin.com/in/ronald-rodríguez</text>
+  <g class="mono" fill="#171A1C" font-size="11" font-weight="700" letter-spacing="1.3">
+    <text x="42" y="33">ZEDRITG / PROFILE 01</text>
+    <text x="678" y="33" text-anchor="end">EC · 2026</text>
   </g>
 
-  <g text-anchor="middle">
-    <circle cx="620" cy="118" r="58" fill="#F3ECDF"/>
-    <circle cx="620" cy="118" r="46" fill="#153332"/>
-    <text x="620" y="133" class="sans" fill="#F3ECDF" font-size="39" font-weight="800">RR</text>
-    <text x="620" y="214" class="sans" fill="#1A302F" font-size="20" font-weight="750">@ZedritG</text>
-    <path d="M555 238H685" stroke="#9E4F39"/>
-    <text x="620" y="275" class="mono" fill="#172523" font-size="10" letter-spacing="1.2">FULL-STACK</text>
-    <text x="620" y="296" class="mono" fill="#172523" font-size="10" letter-spacing="1.2">PRODUCT ENGINEER</text>
+  <g class="sans">
+    <text x="42" y="122" fill="#171A1C" font-size="56" font-weight="800" letter-spacing="-1.5">RONALD</text>
+    <text x="38" y="211" fill="#1D4D91" font-size="79" font-weight="800" letter-spacing="-3.5">RODRÍGUEZ</text>
+    <rect x="472" y="181" width="77" height="9" fill="#D65035"/>
   </g>
+
+  <rect x="0" y="264" width="720" height="116" fill="#1D4D91"/>
+  <g transform="translate(42 291)">
+    <text x="0" y="0" class="mono" fill="#B8C7DE" font-size="11" font-weight="700" letter-spacing="1.5">FULL-STACK</text>
+    <text x="0" y="39" class="sans" fill="#EEE9DE" font-size="28" font-weight="800">PRODUCT ENGINEER</text>
+    <text x="0" y="68" class="mono" fill="#EEE9DE" font-size="11">@ZedritG · Ecuador</text>
+    <text x="636" y="68" text-anchor="end" class="mono" fill="#B8C7DE" font-size="11">WEB / API / DATA / MOBILE</text>
+  </g>
+
+  <rect y="380" width="720" height="40" fill="#171A1C"/>
+  <text x="42" y="405" class="mono" fill="#EEE9DE" font-size="11" font-weight="700" letter-spacing="1.2">WORKFLOW → INTERFACE → API → DATA → FIELD</text>
 </svg>
