@@ -1,123 +1,79 @@
 <svg width="1200" height="440" viewBox="0 0 1200 440" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Ronald Rodríguez — Full-Stack Product Engineer</title>
-  <desc id="desc">An animated violet profile banner about building web, API, data, and mobile products.</desc>
+  <desc id="desc">An editorial profile banner with hand-drawn product, interface, data, and mobile illustrations.</desc>
   <defs>
-    <linearGradient id="bg" x1="40" y1="20" x2="1160" y2="420" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#101319" />
-      <stop offset="0.52" stop-color="#211A25" />
-      <stop offset="1" stop-color="#11151A" />
-    </linearGradient>
-    <radialGradient id="violetGlow">
-      <stop stop-color="#75547D" stop-opacity=".38" />
-      <stop offset="1" stop-color="#75547D" stop-opacity="0" />
-    </radialGradient>
-    <radialGradient id="cyanGlow">
-      <stop stop-color="#4F7A72" stop-opacity=".24" />
-      <stop offset="1" stop-color="#4F7A72" stop-opacity="0" />
-    </radialGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#5C8A78" />
-      <stop offset=".52" stop-color="#8C6F91" />
-      <stop offset="1" stop-color="#C07A5A" />
-    </linearGradient>
-    <filter id="blur"><feGaussianBlur stdDeviation="24" /></filter>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#000" flood-opacity=".45" /></filter>
-    <clipPath id="terminalClip"><rect x="679" y="83" width="432" height="270" rx="18" /></clipPath>
+    <filter id="paper" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency=".72" numOctaves="3" seed="18" result="noise"/>
+      <feColorMatrix in="noise" type="saturate" values="0" result="mono"/>
+      <feComponentTransfer in="mono"><feFuncA type="table" tableValues="0 .055"/></feComponentTransfer>
+      <feBlend in="SourceGraphic" mode="soft-light"/>
+    </filter>
     <style>
-      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
-      .mono { font-family: ui-monospace, "SFMono-Regular", Consolas, monospace; }
-      .particle { animation: float 7s ease-in-out infinite; }
-      .particle:nth-of-type(2n) { animation-delay: -2.5s; animation-duration: 9s; }
-      .particle:nth-of-type(3n) { animation-delay: -5s; animation-duration: 11s; }
-      .aurora-a { animation: driftA 11s ease-in-out infinite alternate; transform-origin: center; }
-      .aurora-b { animation: driftB 13s ease-in-out infinite alternate; transform-origin: center; }
-      .status { animation: pulse 2.4s ease-out infinite; transform-box: fill-box; transform-origin: center; }
-      .reveal { animation: reveal 1.1s .35s ease-out both; }
-      .cursor { animation: blink 1s steps(1) infinite; }
-      .signal { stroke-dasharray: 6 9; animation: signal 10s linear infinite; }
-      .card { animation: lift 6s ease-in-out infinite; }
-      @keyframes float { 0%,100%{transform:translateY(0);opacity:.5} 50%{transform:translateY(-10px);opacity:1} }
-      @keyframes driftA { to { transform: translate(55px,18px) scale(1.12); } }
-      @keyframes driftB { to { transform: translate(-35px,-14px) scale(.92); } }
-      @keyframes pulse { 0%{opacity:.8;transform:scale(.7)} 75%,100%{opacity:0;transform:scale(2)} }
-      @keyframes reveal { from{opacity:0;transform:translateY(10px)} to{opacity:1;transform:translateY(0)} }
-      @keyframes blink { 0%,48%{opacity:1} 49%,100%{opacity:0} }
-      @keyframes signal { to { stroke-dashoffset:-180; } }
-      @keyframes lift { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-5px)} }
-      @media (prefers-reduced-motion: reduce) { .particle,.aurora-a,.aurora-b,.status,.reveal,.cursor,.signal,.card { animation:none; } }
+      .sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}.mono{font-family:ui-monospace,"SFMono-Regular",Consolas,monospace}
+      .ink{stroke:#F3EEE5;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}.soft{stroke:#B9B0A7;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}.scribble{stroke-dasharray:420;stroke-dashoffset:420;animation:draw 14s ease-in-out infinite}.wander{animation:wander 18s ease-in-out infinite;transform-box:fill-box;transform-origin:center}.wander.alt{animation-delay:-8s;animation-duration:21s}.tick{animation:tick 3.6s steps(2,end) infinite}.orbit{animation:orbit 28s linear infinite;transform-box:fill-box;transform-origin:center}
+      @keyframes draw{0%,12%{stroke-dashoffset:420}42%,82%{stroke-dashoffset:0}100%{stroke-dashoffset:-420}}@keyframes wander{0%,100%{translate:0 0;rotate:-1deg}50%{translate:4px -3px;rotate:1deg}}@keyframes tick{50%{opacity:.35}}@keyframes orbit{to{transform:rotate(360deg)}}
+      @media(prefers-reduced-motion:reduce){.scribble,.wander,.tick,.orbit{animation:none}.scribble{stroke-dashoffset:0}}
     </style>
   </defs>
 
-  <rect x="1" y="1" width="1198" height="438" rx="24" fill="url(#bg)" stroke="#3B3E40" stroke-width="2" />
-  <g opacity=".9" filter="url(#blur)">
-    <ellipse class="aurora-a" cx="304" cy="70" rx="250" ry="125" fill="url(#violetGlow)" />
-    <ellipse class="aurora-b" cx="1038" cy="355" rx="245" ry="160" fill="url(#cyanGlow)" />
-  </g>
+  <g filter="url(#paper)">
+    <rect x="1" y="1" width="1198" height="438" rx="22" fill="#14161A" stroke="#4B4645" stroke-width="2"/>
+    <path d="M325 392V178C325 68 415 22 600 22C785 22 875 68 875 178V392H325Z" fill="#57264E"/>
+    <path d="M392 392V202C392 124 461 82 600 82C739 82 808 124 808 202V392H392Z" fill="#742D65" opacity=".72"/>
+    <path d="M461 392V225C461 174 507 144 600 144C693 144 739 174 739 225V392H461Z" fill="#252028" opacity=".72"/>
 
-  <g fill="#F2F0EA">
-    <circle class="particle" cx="78" cy="63" r="2" />
-    <circle class="particle" cx="174" cy="37" r="1.5" />
-    <circle class="particle" cx="329" cy="71" r="1.6" />
-    <circle class="particle" cx="543" cy="42" r="2" />
-    <circle class="particle" cx="634" cy="116" r="1.4" />
-    <circle class="particle" cx="1118" cy="61" r="1.7" />
-    <circle class="particle" cx="1150" cy="186" r="2" />
-    <circle class="particle" cx="69" cy="364" r="1.7" />
-    <circle class="particle" cx="538" cy="393" r="1.5" />
-    <circle class="particle" cx="1120" cy="395" r="1.6" />
-  </g>
+    <g class="mono" fill="#C8BFB5" font-size="11" letter-spacing="1.6">
+      <text x="35" y="37">ZEDRITG / PROFILE NOTE 02</text>
+      <text x="1165" y="37" text-anchor="end">FULL-STACK · ECUADOR</text>
+    </g>
+    <circle cx="22" cy="33" r="4" fill="#C87353"/>
+    <path d="M35 52H1165" stroke="#5A5150" stroke-width="1"/>
 
-  <g class="sans">
-    <g transform="translate(50 42)">
-      <circle cx="6" cy="6" r="6" fill="#6BA875" />
-      <circle class="status" cx="6" cy="6" r="6" fill="#6BA875" />
-      <text x="24" y="11" fill="#B7BAB4" font-size="13" font-weight="600" letter-spacing="1.3">BUILDING END TO END</text>
+    <g class="wander" transform="translate(46 96)">
+      <text x="0" y="-15" class="mono" fill="#A9A098" font-size="10" letter-spacing="1.4">01 / THE MESS</text>
+      <path class="ink scribble" d="M4 33C35 4 43 73 71 39C93 12 104 61 129 34C145 17 164 24 175 46"/>
+      <path class="soft" d="M4 82C35 55 55 100 82 74C105 51 130 101 173 67"/>
+      <circle cx="5" cy="33" r="5" fill="#C87353"/><circle cx="175" cy="46" r="5" fill="#D3B15C"/>
+      <text x="0" y="119" class="sans" fill="#F3EEE5" font-size="15" font-weight="700">real workflow</text>
+      <text x="0" y="139" class="mono" fill="#89827B" font-size="10">listen before building</text>
     </g>
 
-    <text x="50" y="125" fill="#B094B5" font-size="16" font-weight="700" letter-spacing="2">RONALD RODRÍGUEZ</text>
-    <text x="50" y="184" fill="#F2F0EA" font-size="49" font-weight="750">Full-Stack Product</text>
-    <text x="50" y="241" fill="#F2F0EA" font-size="49" font-weight="750">Engineer.</text>
-    <rect x="50" y="259" width="382" height="4" rx="2" fill="url(#accent)" />
-    <g class="reveal">
-      <text x="50" y="302" fill="#C1C2BC" font-size="20" font-weight="500">I turn operational complexity into products</text>
-      <text x="50" y="330" fill="#C1C2BC" font-size="20" font-weight="500">people can understand, trust, and use.</text>
+    <g class="wander alt" transform="translate(960 87)">
+      <text x="0" y="-6" class="mono" fill="#A9A098" font-size="10" letter-spacing="1.4">04 / IN THE FIELD</text>
+      <path class="ink" d="M31 17H124C132 17 138 23 138 31V142C138 150 132 156 124 156H31C23 156 17 150 17 142V31C17 23 23 17 31 17Z"/>
+      <path class="soft" d="M35 44H120M35 61H103M35 78H112"/>
+      <rect x="35" y="105" width="85" height="27" rx="5" fill="#5D816F"/>
+      <path d="M63 145H92" stroke="#F3EEE5" stroke-width="2" stroke-linecap="round"/>
+      <path d="M145 45L158 34M149 61L168 58M144 77L157 89" stroke="#C87353" stroke-width="2.4" stroke-linecap="round"/>
+      <text x="17" y="184" class="sans" fill="#F3EEE5" font-size="15" font-weight="700">useful software</text>
+      <text x="17" y="204" class="mono" fill="#89827B" font-size="10">built for the real day</text>
     </g>
 
-    <g class="mono" font-size="12" font-weight="700">
-      <rect x="50" y="365" width="78" height="31" rx="15.5" fill="#5C8A78" fill-opacity=".13" stroke="#7FA391" stroke-opacity=".5" />
-      <rect x="138" y="365" width="78" height="31" rx="15.5" fill="#8C6F91" fill-opacity=".15" stroke="#B094B5" stroke-opacity=".45" />
-      <rect x="226" y="365" width="78" height="31" rx="15.5" fill="#C07A5A" fill-opacity=".12" stroke="#C98B6C" stroke-opacity=".45" />
-      <rect x="314" y="365" width="95" height="31" rx="15.5" fill="#6BA875" fill-opacity=".12" stroke="#83A88A" stroke-opacity=".45" />
-      <text x="89" y="385" text-anchor="middle" fill="#8DB3A8">WEB</text>
-      <text x="177" y="385" text-anchor="middle" fill="#C0A7C3">API</text>
-      <text x="265" y="385" text-anchor="middle" fill="#D39A7D">DATA</text>
-      <text x="361.5" y="385" text-anchor="middle" fill="#91B197">MOBILE</text>
-    </g>
-  </g>
-
-  <path class="signal" d="M592 61C620 116 618 302 594 380" stroke="url(#accent)" stroke-width="2" opacity=".42" />
-
-  <g class="card" filter="url(#shadow)">
-    <rect x="679" y="83" width="432" height="270" rx="18" fill="#171B21" stroke="#49464D" stroke-width="1.5" />
-    <g clip-path="url(#terminalClip)">
-      <rect x="679" y="83" width="432" height="46" fill="#1E232A" />
-      <circle cx="706" cy="106" r="5" fill="#C07A5A" />
-      <circle cx="725" cy="106" r="5" fill="#C69B53" />
-      <circle cx="744" cy="106" r="5" fill="#6BA875" />
-      <text x="774" y="111" class="mono" fill="#9FA49F" font-size="12">product-system.ts</text>
-      <g class="mono" font-size="15">
-        <text x="709" y="164" fill="#707872">01</text>
-        <text x="750" y="164" fill="#8DB3A8">workflow</text><text x="828" y="164" fill="#F2F0EA">.understand()</text>
-        <text x="709" y="204" fill="#707872">02</text>
-        <text x="750" y="204" fill="#C0A7C3">product</text><text x="820" y="204" fill="#F2F0EA">.shape()</text>
-        <text x="709" y="244" fill="#707872">03</text>
-        <text x="750" y="244" fill="#D39A7D">system</text><text x="811" y="244" fill="#F2F0EA">.build()</text>
-        <text x="709" y="284" fill="#707872">04</text>
-        <text x="750" y="284" fill="#91B197">evidence</text><text x="830" y="284" fill="#F2F0EA">.ship()</text>
-        <text x="709" y="324" fill="#707872">→</text>
-        <text x="750" y="324" fill="#F2F0EA">learn</text><rect class="cursor" x="796" y="309" width="8" height="18" rx="1" fill="#B094B5" />
+    <g class="sans" text-anchor="middle">
+      <g class="orbit">
+        <circle cx="600" cy="100" r="31" fill="#14161A" stroke="#A7BFAE" stroke-width="2"/>
+        <path class="ink" d="M585 98C592 87 608 87 615 98M590 108H610"/>
       </g>
+      <text x="600" y="194" fill="#D8C6D5" font-size="13" font-weight="700" letter-spacing="3">RONALD RODRÍGUEZ</text>
+      <text x="600" y="239" fill="#F3EEE5" font-size="48" font-weight="850" letter-spacing="-.8">MESSY WORKFLOWS,</text>
+      <text x="600" y="288" fill="#F3EEE5" font-size="48" font-weight="850" letter-spacing="-.8">CLEAR PRODUCTS.</text>
+      <path d="M474 304C531 312 647 310 726 302" stroke="#C87353" stroke-width="4" stroke-linecap="round"/>
+      <text x="600" y="338" fill="#B9B0A7" font-size="15">Web platforms · dependable APIs · data systems · mobile products</text>
+    </g>
+
+    <g transform="translate(505 360)">
+      <rect width="190" height="42" rx="21" fill="#F3EEE5"/>
+      <circle class="tick" cx="23" cy="21" r="5" fill="#5D816F"/>
+      <text x="101" y="26" text-anchor="middle" class="mono" fill="#201C20" font-size="11" font-weight="700" letter-spacing="1.1">BUILD · SHIP · LEARN</text>
+    </g>
+
+    <g fill="none" stroke-linecap="round">
+      <path d="M250 83l12 9 14-17M279 74l10 4" stroke="#D3B15C" stroke-width="2"/>
+      <path d="M915 316c-13-14-29-14-42 0 13 14 29 14 42 0Z" stroke="#A7BFAE" stroke-width="1.8"/>
+      <circle cx="894" cy="316" r="4" fill="#A7BFAE"/>
+      <path d="M247 344v21M237 354h21" stroke="#C87353" stroke-width="2"/>
+      <path d="M929 235c13-11 25-9 35 4-15 8-27 6-35-4Z" stroke="#D3B15C" stroke-width="1.8"/>
+      <path d="M926 231c9-14 20-18 34-10" stroke="#D3B15C" stroke-width="1.8"/>
     </g>
   </g>
-  <text x="1148" y="410" text-anchor="end" class="mono" fill="#777D78" font-size="11" letter-spacing="1">WEB · API · DATA · MOBILE</text>
 </svg>
