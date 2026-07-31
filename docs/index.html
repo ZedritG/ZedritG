@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#090b18">
+    <meta name="description" content="Ronald Rodríguez — Full-Stack Product Engineer building web, API, data, and mobile products.">
+    <meta property="og:title" content="Ronald Rodríguez — Product Engineer">
+    <meta property="og:description" content="From operational complexity to dependable digital products.">
+    <meta property="og:type" content="website">
+    <title>Ronald Rodríguez — Product Engineer</title>
+    <link rel="preconnect" href="https://api.github.com">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <canvas id="particles" aria-hidden="true"></canvas>
+    <div class="aurora aurora-one" aria-hidden="true"></div>
+    <div class="aurora aurora-two" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Ronald Rodríguez, home">
+        <span class="brand-mark">RR</span>
+        <span>ZedritG</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#profile">Profile</a>
+        <a href="#work">Work</a>
+        <a href="#practice">Practice</a>
+      </nav>
+      <a class="header-cta" href="https://github.com/ZedritG" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="live-dot"></span> Building end to end</p>
+          <h1 id="hero-title">Operational complexity,<br><em>turned into product.</em></h1>
+          <p class="hero-intro">
+            I design and build dependable web platforms, APIs, data systems,
+            and mobile experiences for the way people actually work.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#profile">Explore the system <span>↓</span></a>
+            <a class="button secondary" href="https://www.linkedin.com/in/ronald-rodr%C3%ADguez-144842276/" target="_blank" rel="noreferrer">Let’s talk <span>↗</span></a>
+          </div>
+        </div>
+
+        <aside class="profile-card reveal" id="profile" aria-label="Interactive profile card">
+          <div class="card-sky" aria-hidden="true">
+            <span class="orbit orbit-one"></span>
+            <span class="orbit orbit-two"></span>
+            <span class="spark spark-one"></span>
+            <span class="spark spark-two"></span>
+            <span class="spark spark-three"></span>
+          </div>
+          <img class="avatar" src="https://avatars.githubusercontent.com/u/87398925?v=4" alt="Ronald Rodríguez" width="128" height="128">
+          <div class="identity">
+            <h2>Ronald Rodríguez</h2>
+            <p>@ZedritG</p>
+            <span class="role">Full-Stack Product Engineer</span>
+          </div>
+          <a class="follow-button" href="https://github.com/ZedritG" target="_blank" rel="noreferrer">View GitHub profile</a>
+
+          <dl class="stats">
+            <div><dt data-stat="repos">—</dt><dd>repositories</dd></div>
+            <div><dt data-stat="stars">—</dt><dd>stars</dd></div>
+            <div><dt data-stat="followers">—</dt><dd>followers</dd></div>
+            <div><dt data-stat="following">—</dt><dd>following</dd></div>
+          </dl>
+
+          <div class="tabs" role="tablist" aria-label="Profile sections">
+            <button type="button" role="tab" aria-selected="true" aria-controls="overview-panel" id="overview-tab" data-tab="overview">Overview</button>
+            <button type="button" role="tab" aria-selected="false" aria-controls="projects-panel" id="projects-tab" data-tab="projects">Projects</button>
+            <button type="button" role="tab" aria-selected="false" aria-controls="stack-panel" id="stack-tab" data-tab="stack">Stack</button>
+          </div>
+
+          <div class="tab-panels">
+            <section class="tab-panel active" id="overview-panel" role="tabpanel" aria-labelledby="overview-tab">
+              <p class="panel-kicker">CURRENT SYSTEMS</p>
+              <article class="mini-project"><span>01</span><div><strong>Gym Strike</strong><small>Operations platform</small></div><b>ACTIVE</b></article>
+              <article class="mini-project"><span>02</span><div><strong>KtrApp</strong><small>Web, API &amp; mobile</small></div><b>ACTIVE</b></article>
+              <blockquote>“Start with the workflow. The framework comes later.”</blockquote>
+            </section>
+            <section class="tab-panel" id="projects-panel" role="tabpanel" aria-labelledby="projects-tab" hidden>
+              <a class="repo-row" href="https://github.com/ZedritG/Revac_Qr" target="_blank" rel="noreferrer"><span class="repo-icon">QR</span><span><strong>Revec QR</strong><small>Offline-first field operations</small></span><b>↗</b></a>
+              <a class="repo-row" href="https://github.com/ZedritG/Login_Application" target="_blank" rel="noreferrer"><span class="repo-icon">RB</span><span><strong>Role-Based Access</strong><small>Permissions &amp; responsive UI</small></span><b>↗</b></a>
+            </section>
+            <section class="tab-panel" id="stack-panel" role="tabpanel" aria-labelledby="stack-tab" hidden>
+              <div class="stack-cloud"><span>Vue</span><span>TypeScript</span><span>NestJS</span><span>PostgreSQL</span><span>Redis</span><span>Flutter</span><span>Docker</span><span>GitHub Actions</span></div>
+            </section>
+          </div>
+        </aside>
+      </section>
+
+      <section class="work-section section" id="work" aria-labelledby="work-title">
+        <div class="section-heading reveal">
+          <p class="eyebrow">SELECTED WORK</p>
+          <h2 id="work-title">Products with real constraints.</h2>
+          <p>Not demo screens: workflows shaped around roles, unreliable networks, operational controls, and data that must stay trustworthy.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <a class="project-visual" href="https://github.com/ZedritG/Revac_Qr" target="_blank" rel="noreferrer">
+              <img src="https://raw.githubusercontent.com/ZedritG/ZedritG/main/assets/revec-qr.png" alt="Revec QR application interface" loading="lazy">
+            </a>
+            <div class="project-copy">
+              <div class="project-meta"><span>FIELD OPERATIONS</span><span>PUBLIC</span></div>
+              <h3>Revec QR</h3>
+              <p>QR scanning, geolocation, role-aware workflows, and offline persistence for visits beyond the desk.</p>
+              <div class="tags"><span>Flutter</span><span>Riverpod</span><span>Hive</span></div>
+              <a href="https://github.com/ZedritG/Revac_Qr" target="_blank" rel="noreferrer">Inspect the repository <span>↗</span></a>
+            </div>
+          </article>
+
+          <article class="project-card reverse reveal">
+            <a class="project-visual" href="https://github.com/ZedritG/Login_Application" target="_blank" rel="noreferrer">
+              <img src="https://raw.githubusercontent.com/ZedritG/ZedritG/main/assets/role-access.png" alt="Role-aware dashboard interface" loading="lazy">
+            </a>
+            <div class="project-copy">
+              <div class="project-meta"><span>PRODUCT SECURITY</span><span>PUBLIC</span></div>
+              <h3>Role-Based Access</h3>
+              <p>Authentication and permissions translated into navigation, responsibilities, metrics, and controls for each role.</p>
+              <div class="tags"><span>Flutter</span><span>Riverpod</span><span>Material 3</span></div>
+              <a href="https://github.com/ZedritG/Login_Application" target="_blank" rel="noreferrer">Inspect the repository <span>↗</span></a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="practice-section section" id="practice" aria-labelledby="practice-title">
+        <div class="section-heading reveal">
+          <p class="eyebrow">PRODUCT PRACTICE</p>
+          <h2 id="practice-title">One loop, not four handoffs.</h2>
+        </div>
+        <ol class="practice-grid">
+          <li class="reveal"><span>01</span><h3>Understand</h3><p>Map the workflow, users, constraints, and failure points.</p></li>
+          <li class="reveal"><span>02</span><h3>Define</h3><p>Give the product, API, and data clear boundaries.</p></li>
+          <li class="reveal"><span>03</span><h3>Build</h3><p>Connect interface, backend, infrastructure, and field use.</p></li>
+          <li class="reveal"><span>04</span><h3>Prove</h3><p>Ship tests, builds, screenshots, and documented decisions.</p></li>
+        </ol>
+      </section>
+
+      <section class="activity-section section reveal" aria-labelledby="activity-title">
+        <div>
+          <p class="eyebrow">GITHUB ACTIVITY</p>
+          <h2 id="activity-title">Built in public, one cell at a time.</h2>
+        </div>
+        <picture id="snake-picture">
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZedritG/ZedritG/output/github-contribution-grid-snake-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ZedritG/ZedritG/output/github-contribution-grid-snake.svg">
+          <img src="https://raw.githubusercontent.com/ZedritG/ZedritG/output/github-contribution-grid-snake-dark.svg" alt="Animated GitHub contribution graph" loading="lazy">
+        </picture>
+        <p class="snake-fallback" hidden>The activity animation is being generated. View the contribution graph directly on GitHub.</p>
+      </section>
+
+      <section class="contact-section section reveal">
+        <p class="eyebrow">LET’S BUILD</p>
+        <h2>Have an operational problem worth turning into a clear product?</h2>
+        <div class="hero-actions centered">
+          <a class="button primary" href="https://www.linkedin.com/in/ronald-rodr%C3%ADguez-144842276/" target="_blank" rel="noreferrer">Start a conversation <span>↗</span></a>
+          <a class="button secondary" href="https://github.com/ZedritG" target="_blank" rel="noreferrer">Explore GitHub <span>↗</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer><span>Ronald Rodríguez · ZedritG</span><span>Designed in code · 2026</span></footer>
+    <script src="./app.js" defer></script>
+  </body>
+</html>
